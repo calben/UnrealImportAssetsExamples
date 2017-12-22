@@ -1,0 +1,36 @@
+{
+   "ImportGroups":[
+      {
+         "GroupName":"SkeletalMesh",
+         "Filenames":[
+            "C:\\Users\\calem\\Documents\\Unreal Projects\\UnrealImportAssetsExamples\\ExampleAssets\\HeroicHeroMan.fbx"
+         ],
+         "DestinationPath":"/SkeletalMesh/",
+         "bReplaceExisting":"true",
+         "bSkipReadOnly":"true",
+         "ImportSettings":{
+            "SkeletalMeshImportData":{
+                "bUpdateSkeletonReferencePose": "true",
+                "bUseT0AsRefPose" :"true",
+                "bPreserveSmoothingGroups":"true",
+                "bImportMeshesInBoneHierarchy":"true",
+                "bImportMorphTargets":"true",
+                "bKeepOverlappingVertices":"true"
+            }
+         }
+      },
+      {
+          "GroupName":"Textures",
+          "Filenames":[
+            "C:\\Users\\calem\\Documents\\Unreal Projects\\UnrealImportAssetsExamples\\ExampleAssets\\HeroicHeroMan_body_derm.png",
+            "C:\\Users\\calem\\Documents\\Unreal Projects\\UnrealImportAssetsExamples\\ExampleAssets\\HeroicHeroMan_body_displ.png"
+          ],
+          "DestinationPath":"/Textures/",
+          "bReplaceExisting":"true",
+          "bSkipReadOnly":"false",
+          "ImportSettings":{
+              
+          }
+      }
+   ]
+}
